@@ -93,7 +93,7 @@
     </context>
   </template>
   <template name="bf-text-basic" value="$FIELD_NAME$:&#10;    type: text&#10;    label: $FIELD_LABEL$" description="Insert Text Field structure with basic options" toReformat="false" toShortenFQNames="true">
-    <variable name="FIELD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FIELD_NAME" expression="capitalizeAndUnderscore(&quot;FIELD_NAME&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="FIELD_LABEL" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ANY_OPENAPI_JSON_FILE" value="false" />
@@ -148,7 +148,7 @@
     </context>
   </template>
   <template name="bf-article-basic" value="$FIELD_NAME$:&#10;    type: article&#10;    label: $FIELD_LABEL$" description="Insert Article Field structure with basic options" toReformat="false" toShortenFQNames="true">
-    <variable name="FIELD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FIELD_NAME" expression="capitalizeAndUnderscore(&quot;FIELD_NAME&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="FIELD_LABEL" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ANY_OPENAPI_JSON_FILE" value="false" />
@@ -176,7 +176,7 @@
     </context>
   </template>
   <template name="bf-redactor-basic" value="$FIELD_NAME$:&#10;    type: redactor&#10;    label: $FIELD_LABEL$" description="Insert Redactor Field structure with basic options" toReformat="false" toShortenFQNames="true">
-    <variable name="FIELD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FIELD_NAME" expression="capitalizeAndUnderscore(&quot;FIELD_NAME&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="FIELD_LABEL" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ANY_OPENAPI_JSON_FILE" value="false" />
@@ -204,7 +204,7 @@
     </context>
   </template>
   <template name="bf-html-basic" value="$FIELD_NAME$:&#10;    type: html&#10;    label: $FIELD_LABEL$" description="Insert HTML Field structure with basic options" toReformat="false" toShortenFQNames="true">
-    <variable name="FIELD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FIELD_NAME" expression="capitalizeAndUnderscore(&quot;FIELD_NAME&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="FIELD_LABEL" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ANY_OPENAPI_JSON_FILE" value="false" />
@@ -232,7 +232,7 @@
     </context>
   </template>
   <template name="bf-image-basic" value="$FIELD_NAME$:&#10;    type: image&#10;    label: $FIELD_LABEL$" description="Insert Image Field structure with basic options" toReformat="false" toShortenFQNames="true">
-    <variable name="FIELD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FIELD_NAME" expression="capitalizeAndUnderscore(&quot;FIELD_NAME&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="FIELD_LABEL" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ANY_OPENAPI_JSON_FILE" value="false" />
@@ -260,7 +260,7 @@
     </context>
   </template>
   <template name="bf-file-basic" value="$FIELD_NAME$:&#10;    type: file&#10;    label: $FIELD_LABEL$" description="Insert File Field structure with basic options" toReformat="false" toShortenFQNames="true">
-    <variable name="FIELD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FIELD_NAME" expression="capitalizeAndUnderscore(&quot;FIELD_NAME&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="FIELD_LABEL" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ANY_OPENAPI_JSON_FILE" value="false" />
@@ -288,7 +288,7 @@
     </context>
   </template>
   <template name="bf-email-basic" value="$FIELD_NAME$:&#10;    type: email&#10;    label: $FIELD_LABEL$" description="Insert Email Field structure with basic options" toReformat="false" toShortenFQNames="true">
-    <variable name="FIELD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FIELD_NAME" expression="capitalizeAndUnderscore(&quot;FIELD_NAME&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="FIELD_LABEL" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ANY_OPENAPI_JSON_FILE" value="false" />
@@ -316,7 +316,7 @@
     </context>
   </template>
   <template name="bf-embed-basic" value="$FIELD_NAME$:&#10;    type: embed&#10;    label: $FIELD_LABEL$" description="Insert Embed Field structure with basic options" toReformat="false" toShortenFQNames="true">
-    <variable name="FIELD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FIELD_NAME" expression="capitalizeAndUnderscore(&quot;FIELD_NAME&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="FIELD_LABEL" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ANY_OPENAPI_JSON_FILE" value="false" />
@@ -344,7 +344,7 @@
     </context>
   </template>
   <template name="bf-markdown-basic" value="$FIELD_NAME$:&#10;    type: markdown&#10;    label: $FIELD_LABEL$" description="Insert Markdown Field structure with basic options" toReformat="false" toShortenFQNames="true">
-    <variable name="FIELD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FIELD_NAME" expression="capitalizeAndUnderscore(&quot;FIELD_NAME&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="FIELD_LABEL" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ANY_OPENAPI_JSON_FILE" value="false" />
@@ -372,7 +372,7 @@
     </context>
   </template>
   <template name="bf-textarea-basic" value="$FIELD_NAME$:&#10;    type: textarea&#10;    label: $FIELD_LABEL$" description="Insert Textarea Field structure with basic options" toReformat="false" toShortenFQNames="true">
-    <variable name="FIELD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FIELD_NAME" expression="capitalizeAndUnderscore(&quot;FIELD_NAME&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="FIELD_LABEL" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ANY_OPENAPI_JSON_FILE" value="false" />
@@ -400,7 +400,7 @@
     </context>
   </template>
   <template name="bf-collection-basic" value="$FIELD_NAME$:&#10;    type: collection&#10;    label: $FIELD_LABEL$&#10;    fields:&#10;        $COLLECTION_FIELDS$" description="Insert Collection Field structure with basic options" toReformat="false" toShortenFQNames="true">
-    <variable name="FIELD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FIELD_NAME" expression="capitalizeAndUnderscore(&quot;FIELD_NAME&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="FIELD_LABEL" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="COLLECTION_FIELDS" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -429,7 +429,7 @@
     </context>
   </template>
   <template name="bf-select-basic" value="$FIELD_NAME$:&#10;    type: select&#10;    label: $FIELD_LABEL$&#10;    values: [$COLLECTION_FIELDS$]" description="Insert Select Field structure with basic options" toReformat="false" toShortenFQNames="true">
-    <variable name="FIELD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FIELD_NAME" expression="capitalizeAndUnderscore(&quot;FIELD_NAME&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="FIELD_LABEL" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="COLLECTION_FIELDS" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -458,7 +458,7 @@
     </context>
   </template>
   <template name="bf-number-basic" value="$FIELD_NAME$:&#10;    type: number&#10;    label: $FIELD_LABEL$&#10;    mode: $FIELD_MODE$" description="Insert Number Field structure with basic options" toReformat="false" toShortenFQNames="true">
-    <variable name="FIELD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FIELD_NAME" expression="capitalizeAndUnderscore(&quot;FIELD_NAME&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="FIELD_LABEL" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="FIELD_MODE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -487,7 +487,7 @@
     </context>
   </template>
   <template name="bf-hidden-basic" value="$FIELD_NAME$:&#10;    type: hidden&#10;    label: $FIELD_LABEL$" description="Insert Hidden Field structure with basic options" toReformat="false" toShortenFQNames="true">
-    <variable name="FIELD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FIELD_NAME" expression="capitalizeAndUnderscore(&quot;FIELD_NAME&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="FIELD_LABEL" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ANY_OPENAPI_JSON_FILE" value="false" />
@@ -515,7 +515,7 @@
     </context>
   </template>
   <template name="bf-data-basic" value="$FIELD_NAME$:&#10;    type: data&#10;    label: $FIELD_LABEL$" description="Insert Data Field structure with basic options" toReformat="false" toShortenFQNames="true">
-    <variable name="FIELD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FIELD_NAME" expression="capitalizeAndUnderscore(&quot;FIELD_NAME&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="FIELD_LABEL" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ANY_OPENAPI_JSON_FILE" value="false" />
@@ -543,7 +543,7 @@
     </context>
   </template>
   <template name="bf-checkbox-basic" value="$FIELD_NAME$:&#10;    type: checkbox&#10;    label: $FIELD_LABEL$" description="Insert Checkbox Field structure with basic options" toReformat="false" toShortenFQNames="true">
-    <variable name="FIELD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FIELD_NAME" expression="capitalizeAndUnderscore(&quot;FIELD_NAME&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="FIELD_LABEL" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ANY_OPENAPI_JSON_FILE" value="false" />
@@ -571,7 +571,7 @@
     </context>
   </template>
   <template name="bf-date-basic" value="$FIELD_NAME$:&#10;    type: date&#10;    label: $FIELD_LABEL$&#10;    mode: $FIELD_MODE$" description="Insert Date Field structure with basic options" toReformat="false" toShortenFQNames="true">
-    <variable name="FIELD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FIELD_NAME" expression="capitalizeAndUnderscore(&quot;FIELD_NAME&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="FIELD_LABEL" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="FIELD_MODE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -600,7 +600,7 @@
     </context>
   </template>
   <template name="bf-imagelist-basic" value="$FIELD_NAME$:&#10;    type: imagelist&#10;    label: $FIELD_LABEL$" description="Insert Imagelist Field structure with basic options" toReformat="false" toShortenFQNames="true">
-    <variable name="FIELD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FIELD_NAME" expression="capitalizeAndUnderscore(&quot;FIELD_NAME&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="FIELD_LABEL" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ANY_OPENAPI_JSON_FILE" value="false" />
@@ -628,7 +628,7 @@
     </context>
   </template>
   <template name="bf-filelist-basic" value="$FIELD_NAME$:&#10;    type: filelist&#10;    label: $FIELD_LABEL$" description="Insert Filelist Field structure with basic options" toReformat="false" toShortenFQNames="true">
-    <variable name="FIELD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FIELD_NAME" expression="capitalizeAndUnderscore(&quot;FIELD_NAME&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="FIELD_LABEL" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ANY_OPENAPI_JSON_FILE" value="false" />
@@ -656,7 +656,7 @@
     </context>
   </template>
   <template name="bf-templateselect-basic" value="$FIELD_NAME$:&#10;    type: templateselect&#10;    label: $FIELD_LABEL$" description="Insert Templateselect Field structure with basic options" toReformat="false" toShortenFQNames="true">
-    <variable name="FIELD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FIELD_NAME" expression="capitalizeAndUnderscore(&quot;FIELD_NAME&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="FIELD_LABEL" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ANY_OPENAPI_JSON_FILE" value="false" />
@@ -684,7 +684,7 @@
     </context>
   </template>
   <template name="bf-set-basic" value="$FIELD_NAME$:&#10;    type: set&#10;    label: $FIELD_LABEL$&#10;    fields:&#10;        $COLLECTION_FIELDS$" description="Insert Set Field structure with basic options" toReformat="false" toShortenFQNames="true">
-    <variable name="FIELD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FIELD_NAME" expression="capitalizeAndUnderscore(&quot;FIELD_NAME&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="FIELD_LABEL" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="COLLECTION_FIELDS" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -713,7 +713,7 @@
     </context>
   </template>
   <template name="bt-tags" value="$TAXONOMY_DEFINITION$:&#10;    name: $TAXONOMY_NAME$&#10;    singular_name: $TAXONOMY_SINGULAR_NAME$&#10;    slug: $TAXONOMY_SLUG$&#10;    singular_slug: $TAXONOMY_SINGULAR_SLUG$&#10;    allow_spaces: $TAXONOMY_ALLOW_SPACES$&#10;    behaves_like: tags" description="Insert Taxonomy structure that behave like tags" toReformat="false" toShortenFQNames="true">
-    <variable name="TAXONOMY_DEFINITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TAXONOMY_DEFINITION" expression="capitalizeAndUnderscore(&quot;TAXONOMY_DEFINITION&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="TAXONOMY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="TAXONOMY_SINGULAR_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="TAXONOMY_SLUG" expression="" defaultValue="" alwaysStopAt="true" />
@@ -745,7 +745,7 @@
     </context>
   </template>
   <template name="bt-grouping" value="$TAXONOMY_DEFINITION$:&#10;    name: $TAXONOMY_NAME$&#10;    singular_name: $TAXONOMY_SINGULAR_NAME$&#10;    slug: $TAXONOMY_SLUG$&#10;    singular_slug: $TAXONOMY_SINGULAR_SLUG$&#10;    behaves_like: grouping&#10;    has_sortorder: $TAXONOMY_HAS_SORTORDER$&#10;    options: [$TAXONOMY_OPTIONS$]" description="Insert Taxonomy structure that behave like grouping" toReformat="false" toShortenFQNames="true">
-    <variable name="TAXONOMY_DEFINITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TAXONOMY_DEFINITION" expression="capitalizeAndUnderscore(&quot;TAXONOMY_DEFINITION&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="TAXONOMY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="TAXONOMY_SINGULAR_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="TAXONOMY_SLUG" expression="" defaultValue="" alwaysStopAt="true" />
@@ -778,7 +778,7 @@
     </context>
   </template>
   <template name="bt-categories" value="$TAXONOMY_DEFINITION$:&#10;    name: $TAXONOMY_NAME$&#10;    singular_name: $TAXONOMY_SINGULAR_NAME$&#10;    slug: $TAXONOMY_SLUG$&#10;    singular_slug: $TAXONOMY_SINGULAR_SLUG$&#10;    behaves_like: categories&#10;    multiple: $TAXONOMY_MULTIPLE$&#10;    options: [$TAXONOMY_OPTIONS$]&#10;    " description="Insert Taxonomy structure that behave like categories" toReformat="false" toShortenFQNames="true">
-    <variable name="TAXONOMY_DEFINITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TAXONOMY_DEFINITION" expression="capitalizeAndUnderscore(&quot;TAXONOMY_DEFINITION&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="TAXONOMY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="TAXONOMY_SINGULAR_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="TAXONOMY_SLUG" expression="" defaultValue="" alwaysStopAt="true" />
@@ -841,7 +841,7 @@
     </context>
   </template>
   <template name="br-basic" value="$RELATIONSHIP_CONTENTTYPE$:&#10;    label: $RELATIONSHIP_LABEL$&#10;    multiple: $RELATIONSHIP_MULTIPLE$" description="Insert Relationship structure with basic Relationship's options" toReformat="false" toShortenFQNames="true">
-    <variable name="RELATIONSHIP_CONTENTTYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="RELATIONSHIP_CONTENTTYPE" expression="capitalizeAndUnderscore(&quot;CONTENTTYPE_DEFINITION&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="RELATIONSHIP_LABEL" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="RELATIONSHIP_MULTIPLE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
