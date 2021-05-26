@@ -1,5 +1,5 @@
 <templateSet group="Bolt">
-  <template name="bc-full" value="$CONTENTTYPE$:&#10;    name: $CONTENTTYPE_NAME$&#10;    slug: $CONTENTTYPE_SLUG$&#10;    singular_name: $CONTENTTYPE_SINGULAR_NAME$&#10;    singular_slug: $CONTENTTYPE_SINGULAR_SLUG$&#10;    locales: [$CONTENTTYPE_LOCALES$]&#10;    title_format: '$CONTENTTYPE_TITLE_FORMAT$'&#10;    description: The 'Showcases' is not particularly useful in most cases, but it does a good job of showcasing most of the available fieldtypes.&#10;    fields:&#10;        $CONTENTTYPE_FIELDS$&#10;    relations:&#10;        $CONTENTTYPE_RELATIONS$&#10;    taxonomy: [$CONTENTTYPE_TAXONOMIES$]&#10;    record_template: $CONTENTTYPE_RECORD_TEMPLATE$&#10;    record_route: $CONTENTTYPE_RECORD_ROUTE$&#10;    records_per_page: $CONTENTTYPE_RECORDS_PER_PAGE$&#10;    listing_template: $CONTENTTYPE_LISTING_TEMPLATE$&#10;    listing_records: $CONTENTTYPE_LISTING_RECORDS$&#10;    listing_sort: $CONTENTTYPE_LISTING_SORT$&#10;    sort: $CONTENTTYPE_SORT$&#10;    show_on_dashboard: $CONTENTTYPE_SHOW_ON_DASHBOARD$&#10;    show_in_menu: $CONTENTTYPE_SHOW_IN_MENU$&#10;    default_status: $CONTENTTYPE_DEFAULT_STATUS$&#10;    searchable: $CONTENTTYPE_SEARCHABLE$&#10;    singleton: $CONTENTTYPE_VIEWLESS$&#10;    icon_many: &quot;$CONTENTTYPE_ICON_MANY$&quot;&#10;    icon_one: &quot;$CONTENTTYPE_ICON_ONE$&quot;&#10;    order: [&quot;$CONTENTTYPE_ICON_ORDER$&quot;]&#10;    viewless: $CONTENTTYPE_VIEW_LESS$&#10;    excerpt_format: $CONTENTTYPE_EXCERPT_FORMAT$" description="Insert Contenttype structure with all Contenttype's options" toReformat="false" toShortenFQNames="true">
+  <template name="bc-full" value="$CONTENTTYPE$:&#10;    name: $CONTENTTYPE_NAME$&#10;    slug: $CONTENTTYPE_SLUG$&#10;    singular_name: $CONTENTTYPE_SINGULAR_NAME$&#10;    singular_slug: $CONTENTTYPE_SINGULAR_SLUG$&#10;    locales: [$CONTENTTYPE_LOCALES$]&#10;    title_format: '$CONTENTTYPE_TITLE_FORMAT$'&#10;    description: $CONTENTTYPE_DESCRIPTION$&#10;    fields:&#10;        $CONTENTTYPE_FIELDS$&#10;    relations:&#10;        $CONTENTTYPE_RELATIONS$&#10;    taxonomy: [$CONTENTTYPE_TAXONOMIES$]&#10;    record_template: $CONTENTTYPE_RECORD_TEMPLATE$&#10;    record_route: $CONTENTTYPE_RECORD_ROUTE$&#10;    records_per_page: $CONTENTTYPE_RECORDS_PER_PAGE$&#10;    listing_template: $CONTENTTYPE_LISTING_TEMPLATE$&#10;    listing_records: $CONTENTTYPE_LISTING_RECORDS$&#10;    listing_sort: $CONTENTTYPE_LISTING_SORT$&#10;    sort: $CONTENTTYPE_SORT$&#10;    show_on_dashboard: $CONTENTTYPE_SHOW_ON_DASHBOARD$&#10;    show_in_menu: $CONTENTTYPE_SHOW_IN_MENU$&#10;    default_status: $CONTENTTYPE_DEFAULT_STATUS$&#10;    searchable: $CONTENTTYPE_SEARCHABLE$&#10;    singleton: $CONTENTTYPE_VIEWLESS$&#10;    icon_many: &quot;$CONTENTTYPE_ICON_MANY$&quot;&#10;    icon_one: &quot;$CONTENTTYPE_ICON_ONE$&quot;&#10;    order: [&quot;$CONTENTTYPE_ICON_ORDER$&quot;]&#10;    viewless: $CONTENTTYPE_VIEW_LESS$&#10;    excerpt_format: $CONTENTTYPE_EXCERPT_FORMAT$" description="Insert Contenttype structure with all Contenttype's options" toReformat="false" toShortenFQNames="true">
     <variable name="CONTENTTYPE" expression="capitalizeAndUnderscore(&quot;CONTENTTYPE_DEFINITION&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="CONTENTTYPE_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CONTENTTYPE_SLUG" expression="" defaultValue="" alwaysStopAt="true" />
@@ -7,6 +7,7 @@
     <variable name="CONTENTTYPE_SINGULAR_SLUG" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CONTENTTYPE_LOCALES" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CONTENTTYPE_TITLE_FORMAT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CONTENTTYPE_DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CONTENTTYPE_FIELDS" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CONTENTTYPE_RELATIONS" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CONTENTTYPE_TAXONOMIES" expression="" defaultValue="" alwaysStopAt="true" />
@@ -899,6 +900,76 @@
       <option name="HAML" value="false" />
       <option name="HTML" value="false" />
       <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="PHP" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="Twig" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="Vue" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="bm-basic" value="$MENU_NAME$:&#10;    - label: $MENU_ITEM_LABEL$&#10;      link: $MENU_ITEM_LINK$  " description="Inserts the main structure of the menu" toReformat="false" toShortenFQNames="true">
+    <variable name="MENU_NAME" expression="capitalizeAndUnderscore(&quot;MENU_DEFINITION&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="MENU_ITEM_LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MENU_ITEM_LINK" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="PHP" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="Twig" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="Vue" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="bm-item-basic" value="- label: $MENU_ITEM_LABEL$&#10;  link: $MENU_ITEM_LINK$  " description="Inserts the structure of a menu link (link/label)" toReformat="false" toShortenFQNames="true">
+    <variable name="MENU_ITEM_LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MENU_ITEM_LINK" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="PHP" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="Twig" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="Vue" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="bm-submenu-item-basic" value="submenu:&#10;    - label: $MENU_ITEM_LABEL$&#10;      link: $MENU_ITEM_LINK$  " description="Inserts the structure of a submenu item" toReformat="false" toShortenFQNames="true">
+    <variable name="MENU_ITEM_LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MENU_ITEM_LINK" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSON" value="false" />
       <option name="OTHER" value="true" />
