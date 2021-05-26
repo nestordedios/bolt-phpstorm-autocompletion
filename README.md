@@ -82,3 +82,9 @@ Autocomplete suggestions:
 * `bf-text-basic`: Inserts the structure of a **Text** Field with the basic options.
 * `bf-textarea-basic`: Inserts the structure of a **Textarea** Field with the basic options.
 
+### Menus
+List of Menus autocomplete suggestions is triggered by typing in `bm`.
+
+* `bm-basic`: Inserts the main structure of the menu.
+* `bm-item-basic`: Inserts the structure of a menu link (link/label).
+* `bm-submenu-item-basic`: Inserts the structure of a submenu item. 
